@@ -3,7 +3,7 @@ package com.zs.light.spider.core.model;
 import java.io.Serializable;
 
 
-public class Url implements Serializable {
+public abstract class AbstractUrl implements Serializable {
 
 	/**
 	 * 
