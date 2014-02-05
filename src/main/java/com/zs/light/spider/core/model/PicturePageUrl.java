@@ -7,5 +7,16 @@ public class PicturePageUrl extends AbstractUrl {
 	 */
 	private static final long serialVersionUID = 3042353309240104988L;
 	
+	/**
+	 * 存放目录
+	 */
+	private String filePath;
 
+	public void setFilePath(String filePath) {
+		this.filePath = filePath;
+	}
+
+	public String getFilePath() {
+		return filePath;
+	}
 }

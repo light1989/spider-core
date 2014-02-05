@@ -12,7 +12,7 @@ public abstract class AbstractUrl implements Serializable {
 	
 	private String type;
 	
-	private String url;
+	private String address;
 	
 	private String md5;
 
@@ -24,12 +24,12 @@ public abstract class AbstractUrl implements Serializable {
 		this.type = type;
 	}
 
-	public String getUrl() {
-		return url;
+	public String getAddress() {
+		return address;
 	}
 
-	public void setUrl(String url) {
-		this.url = url;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	public String getMd5() {
@@ -42,7 +42,7 @@ public abstract class AbstractUrl implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Url [type=" + type + ", url=" + url + ", md5=" + md5 + "]";
+		return "AbstractUrl [type=" + type + ", address=" + address + ", md5="
+				+ md5 + "]";
 	}
-	
 }
