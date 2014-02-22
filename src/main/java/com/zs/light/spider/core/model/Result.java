@@ -2,7 +2,7 @@ package com.zs.light.spider.core.model;
 
 import java.io.Serializable;
 
-public abstract class AbstractResult implements Serializable{
+public abstract class Result implements Serializable{
 
 	/**
 	 * 

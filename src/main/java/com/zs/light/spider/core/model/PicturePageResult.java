@@ -3,7 +3,7 @@ package com.zs.light.spider.core.model;
 import java.util.List;
 
 
-public class PicturePageResult extends AbstractResult{
+public class PicturePageResult extends Result{
 	
 	/**
 	 * 

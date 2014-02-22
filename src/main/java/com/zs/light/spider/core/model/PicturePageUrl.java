@@ -1,6 +1,6 @@
 package com.zs.light.spider.core.model;
 
-public class PicturePageUrl extends AbstractUrl {
+public class PicturePageUrl extends Url {
 
 	/**
 	 * 

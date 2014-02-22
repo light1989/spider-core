@@ -3,7 +3,7 @@ package com.zs.light.spider.core.model;
 import java.io.Serializable;
 
 
-public abstract class AbstractUrl implements Serializable {
+public class Url implements Serializable {
 
 	/**
 	 * 
@@ -15,6 +15,8 @@ public abstract class AbstractUrl implements Serializable {
 	private String address;
 	
 	private String md5;
+	
+	private String status;
 
 	public String getType() {
 		return type;
@@ -42,7 +44,15 @@ public abstract class AbstractUrl implements Serializable {
 
 	@Override
 	public String toString() {
-		return "AbstractUrl [type=" + type + ", address=" + address + ", md5="
+		return "Url [type=" + type + ", address=" + address + ", md5="
 				+ md5 + "]";
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getStatus() {
+		return status;
 	}
 }
